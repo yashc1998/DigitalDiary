@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Shopping"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/montserrat" />
+
+    <TextView
+        android:id="@+id/item_note_last_modified"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:inputType="textCapSentences"
+        android:layout_height="wrap_content"
+        android:text="3 sec ago" />
+
+</LinearLayout>
